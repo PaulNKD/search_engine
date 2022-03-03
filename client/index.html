@@ -9,25 +9,28 @@
     <title>Google</title>
 </head>
 <body>
-    <header>this is  a header</header>
-        <img id=logo src="/google/img/google-logo.png" alt="google-logo">
+        <img id=logo src="img/google-logo.png" alt="google-logo">
     <div >
         <nav>
             <form action="">
-                <input id="searchbar" type="search" size="100">
+                <input id="searchbar" type="search" style="width:500px; height:40px; font-size:20px;" size="80" placeholder="Search Here">
+                
             </form>
         </nav>
     </div>
-    <div class='hope'>
-    <button id='buttons'>
+    <div>
+        <form class="buttonsToCentre">
+    <button id='submitButton' type ='submit'>
         Google search
     </button>
-    <button>
+        
+    <button id='randomButton' type ='submit'>
         Im feeling lucky 
     </button>
+        </form> 
     </div>
-    <footer>
-        this is a 
-    </footer>
+    <h1 id = "searchText"></h1>
+    <h1 id = "searchText2"></h1>
+    <script src="js/index.js"></script>
 </body>
 </html>
